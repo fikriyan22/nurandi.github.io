@@ -6,3 +6,93 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+
+/* --------------------------------------------------------------------------- */
+/* CUSTOM STYLE 															   */
+/* --------------------------------------------------------------------------- */
+
+/* Iframe */
+
+iframe {    
+ border:0 none;
+}
+
+.scalable {
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.scalable iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.scalable .scalable-content {
+  height: 0;
+  position: relative;
+}
+
+.scalable-4x3 .scalable-content {
+  padding-bottom: 75%;
+}
+
+.scalable-16x9 .scalable-content {
+  padding-bottom: 56.25%;
+}
+
+.scalable-10x3 .scalable-content {
+  padding-bottom: 33.33%;
+}
+
+
+
+
+
+/* Scrollbar on highlight/code box */
+
+.highlight::-webkit-scrollbar-track {
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+.highlight::-webkit-scrollbar {
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+.highlight::-webkit-scrollbar-thumb {
+	width: 3px;
+	background-color: #000000;
+}
+
+
+
+/* --- Inline code --- */
+
+p>code, 
+a>code, 
+li>code, 
+figcaption>code, 
+td>code,
+h1>code,
+h2>code,
+h3>code,
+h4>code,
+h5>code,
+h6>code
+ {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: .9em;
+  background: #fafafa;
+  border: 1px solid #f2f3f3;
+  color: #c7254e;
+}
+
+

@@ -24,17 +24,7 @@ Setelah beberapa kali _mau daftar, tapi gak jadi, mau daftar lagi tapi cuman wac
 
 Melalui email tersebut Cloudera tidak hanya menyampaikan bahwa saya lulus, tetapi juga keterangan untuk tiap-tiap soal: apakah benar atau salah. Jika salah, disebutkan juga alasannya. Diberitahukan juga bahwa saya akan mendapatkan sertifikat elektronik melalui email yang akan dikirimkan dalam waktu 2-3 hari kerja.
 
-{% include base_path %}
-
-{% capture fig_img %}
-![Nur Andi Setiabudi - Cloudera Certified CCA Data Analyst]({{ base_path }}/img/blog/pengalaman-cca-data-analyst/cca-data-analyst.png)
-{% endcapture %}
-
-<figure>
-{{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-<span class="caption">Yeay, sertifikat CCA Data Analyst, dikirimkan Cloudera dua hari setelah saya dinyatakan lulus. Vefifikasi: http://certification.cloudera.com/verify</span>
-</figure> 
-
+{% include image url="/img/blog/pengalaman-cca-data-analyst/cca-data-analyst.png" alt="Sertifikat CCA" caption="Yeay, sertifikat CCA Data Analyst, dikirimkan Cloudera dua hari setelah saya dinyatakan lulus. Vefifikasi: [http://certification.cloudera.com/verify]" %} 
 
 Di artikel ini saya coba *share* pengalaman seputar CCA Data Analyst yang saya ikuti kemarin itu. Mudah-mudahan bermanfaat.
 
@@ -72,7 +62,7 @@ Sebenarnya cuma ada dua soal yang secara eksplisit diminta menggunakan Hive, sis
 
 Sebagai gambaran bagaimana contoh soalnya, silakan simak video dari Clodera berikut.
 
-{% include vimeoPlayer.html id="199747760" %}
+{% include video id="199747760" provider="vimeo" %}
 
 Ya, memang sesederhana itu. Saya sendiri berhasil menyelesaikan delapan soal dengan benar (Skor minimum untuk lulus adalah 70%). Satu yang tidak bisa saya selesaikan adalah membuat table dari data Avro. Sama sekali tidak punya pengalaman dan tidak mempelajari ini sebelumnya. Sebenarnya saya sudah berusaha mencari di dokumentasi, sayangnya waktu tidak cukup.
 

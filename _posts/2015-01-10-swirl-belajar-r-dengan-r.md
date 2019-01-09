@@ -1,8 +1,6 @@
 ---
-layout: post
 title: 'swirl: Belajar R, dengan R'
 date: 2015-01-10 23:10:12.000000000 +07:00
-type: post
 published: true
 status: publish
 tags:

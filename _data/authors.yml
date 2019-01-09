@@ -1,0 +1,26 @@
+Nur Andi Setiabudi:
+  name             : "Nur Andi Setiabudi"
+  avatar           : "/img/avatar-icon.png"
+  bio              : "I am an amazing person."
+  location         : "Indonesia"
+  email            : "nurandi.mail@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:nurandi.mail@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://nurandi.id"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nurandi"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/nsetiabudi"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/nurandi"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nurandi"
+      

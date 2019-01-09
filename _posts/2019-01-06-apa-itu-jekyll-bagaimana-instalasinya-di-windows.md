@@ -2,13 +2,11 @@
 layout: post
 title: 'Apa Itu Jekyll dan Bagaimana Cara Instalasinya di Windows?'
 date: 2019-01-06 11:27:00.000000000 -05:00
-type: post
 published: true
 status: publish
 tags:
   - blog
   - jekyll
-author: Nur Andi Setiabudi
 excerpt: Jekyll, sesuai tagline "a simple, blog-aware, static site generator" adalah  software untuk membuat  static website. Untuk menghasilkan sebuah blog, Jekyll hanya membutuhkan template, file-file artikel yang ditulis dengan format Markdown dan sebuah file konfigurasi. Kemudian hasilnya kita upload ke server. Itulah blog kita. Sesederhana itu.
 share-img: /img/blog/2019/apa-jekyll-install/logo-jekyll.jpg
 share:

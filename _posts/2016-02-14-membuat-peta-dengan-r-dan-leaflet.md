@@ -80,7 +80,7 @@ map
 
 <div class="scalable scalable-16x9">
   <div class="scalable-content">
-    <iframe src="/src/leaflet-map-bundaran-HI.html"></iframe>
+    <iframe src="/assets/src/leaflet-map-bundaran-HI.html"></iframe>
   </div>
 </div>
 
@@ -167,7 +167,7 @@ tweetsmap
 
 <div class="scalable scalable-16x9">
   <div class="scalable-content">
-    <iframe src="/src/leaflet-map-tweets.html"></iframe>
+    <iframe src="/assets/src/leaflet-map-tweets.html"></iframe>
   </div>
 </div>
 
@@ -222,7 +222,7 @@ memperbesar peta!*
 
 <div class="scalable scalable-16x9">
   <div class="scalable-content">
-    <iframe src="/src/leaflet-map-tweets-cluster.html"></iframe>
+    <iframe src="/assets/src/leaflet-map-tweets-cluster.html"></iframe>
   </div>
 </div>
 
